@@ -1,6 +1,3 @@
-// script.js
-// This script collects smoothie choices and displays a summary.
-
 // Wait for the DOM to load
 window.onload = function() {
   const form = document.getElementById('smoothieForm');
@@ -19,7 +16,7 @@ window.onload = function() {
     // Simple pricing
     const price = 5 + 1.20 + 0.99; // base + ingredient/topping fee/Taxes
 
-    // Show the final message
+    // Show the final message twice : alert and result
     alert(`Thank you, ${name}, for ordering a ${type} smoothie!, The price would be $${price}.`);
     result.innerHTML = `${name}, you ordered a ${type} smoothie with ${ingredient}, ${topping}, and sweetness level ${sweetness}.<br>Total Price: $${price}. Enjoy!`;
   }
