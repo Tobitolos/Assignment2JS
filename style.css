@@ -1,0 +1,99 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('How-to-Make-Smoothie-2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70vw;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#smoothieForm {
+   padding-top: 200px;
+}
+
+
+h1 {
+  text-align: center;
+  color: #d63384;
+  font-weight: bold; 
+  margin-bottom: 20px; 
+  padding-top: 20px;
+  font-size: 60px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #80a732;
+}
+
+option {
+  text-align: center;
+  color: orange;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #f7f6f6;
+  text-align: center;
+}
+
+input, text, select {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #480b0b;
+  margin-top: 5px;
+  color: orange;
+  background-color: #4a0b09;
+}
+
+
+button {
+  background-color: #d63384;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #c1226f;
+  transform: scale(1.05);
+}
+
+button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+#output {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #fff5f8;
+  border: 2px dashed #d63384;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.4;
+  white-space: pre-line;
+}
+
+#result {
+  color: white;
+  font-weight: bold;
+}
