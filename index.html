@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smoothie Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <h1>The Smoothie Machine</h1>
+      <h2>Kindly make your smoothie selection below:</h2>
+      <form id="smoothieForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required><br>
+
+        <label for="type">Choose Smoothie Type:</label>
+        <select id="type">
+          <option value="Classic Fruit">Classic Fruit</option>
+          <option value="Green Detox">Green Detox</option>
+          <option value="Protein Boost">Protein Boost</option>
+        </select><br>
+
+        <label for="ingredient">Select Main Ingredient:</label>
+        <select id="ingredient">
+          <option value="Banana">Banana</option>
+          <option value="Strawberry">Strawberry</option>
+          <option value="Pineapple">Pineapple</option>
+          <option value="Mango">Mango</option>
+          <option value="Berry">berry</option>
+        </select><br>
+
+        <label for="topping">Topping:</label>
+        <select id="topping">
+          <option value="Chia Seeds">Chia Seeds</option>
+          <option value="Granola">Granola</option>
+          <option value="Honey">Honey</option>
+          <option value="Coconut">Coconut</option>
+        </select><br>
+
+        <label for="sweetness">Sweetness Level:</label>
+        <select id="sweetness">
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select><br>
+
+        <button type="submit">Make Smoothie</button>
+      </form>
+      <br>
+
+      <div id="result"></div>
+    </div>
+  </div>
+  
+</body>
+</html>
